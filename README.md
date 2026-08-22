@@ -28,7 +28,7 @@
 ## Installation
 
 1. Go to the [Releases page](https://github.com/czmenz/SAM/releases).
-2. Download the latest `Steam Account Manager Setup X.X.X.exe`.
+2. Download the latest `SAM.Installer.X.X.X.exe`.
 3. Run the installer.
 4. Launch the application from your desktop or start menu.
 
@@ -44,30 +44,6 @@ To fetch extended details (Steam Level, Avatar, Ban Status, Playtime), you can p
 We take your account security seriously. 
 - **No Cloud Syncing:** All data stays on your machine. 
 - **Encryption:** Credentials are encrypted using AES-256 before being saved to disk. The decryption key is derived directly from your hardware's unique Machine ID (`machineIdSync`), meaning if someone copies your config file to another PC, they won't be able to decrypt your accounts.
-- **Open Source:** The code is transparent. You can build it yourself if you prefer.
-
-## Development
-
-If you want to build or run the app locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/czmenz/SAM.git
-cd SAM
-
-# Install dependencies
-npm install
-
-# Run in development mode
-npm start
-
-# Build the NSIS installer
-npm run build
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 *Created by [Czmenz](https://github.com/czmenz)*
